@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.kboctopus.sns.constant.ServiceType"/>
+    <classEntry path="com.kboctopus.sns.ServiceManager"/>
+    <classEntry path="com.kboctopus.sns.service.IService"/>
+    <classEntry path="com.kboctopus.sns.service.BaseService"/>
+    <classEntry path="com.kboctopus.sns.service.TencentService"/>
+    <classEntry path="com.kboctopus.sns.service.SinaService"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

@@ -1,0 +1,21 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>com.kboctopus.sns.SnsExtension</id>
+	<copyright>I am copyright</copyright>
+	<name>
+		<text xml:lang="en">English Name</text>
+		<text xml:lang="cn">Chinese Name</text>
+	</name>
+	<description>
+		<text xml:lang="en">English DESC</text>
+		<text xml:lang="cn">Chinese DESC</text>
+	</description>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>authservice.jar</nativeLibrary>
+				<initializer>com.kboctopus.sns.SnsExtension</initializer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

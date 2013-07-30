@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/kboctopus/sns/service/IService" mod="1375168011621" signatureChecksum="3027329356" >
+        <def id="com.kboctopus.sns.service:IService" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/kboctopus/sns/constant/ServiceType" mod="1375153606600" signatureChecksum="2309443101" >
+        <def id="com.kboctopus.sns.constant:ServiceType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/adobe/utils/IntUtil" mod="1375163809097" signatureChecksum="4188289259" >
+        <def id="com.adobe.utils:IntUtil" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/kboctopus/sns/service/BaseService" mod="1375168043900" signatureChecksum="123796529" >
+        <def id="com.kboctopus.sns.service:BaseService" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.kboctopus.sns.service:IService" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/kboctopus/sns/service/TencentService" mod="1375164578016" signatureChecksum="2898624442" >
+        <def id="com.kboctopus.sns.service:TencentService" /> 
+        <dep id="com.kboctopus.sns.utils:PostHelper" type="e" /> 
+        <dep id="flash.net:URLRequestMethod" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="com.adobe.crypto:MD5" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.kboctopus.sns.service:BaseService" type="i" /> 
+      </script>
+      <script name="com/adobe/crypto/MD5" mod="1375163791060" signatureChecksum="182593323" >
+        <def id="com.adobe.crypto:MD5" /> 
+        <dep id="com.adobe.utils:IntUtil" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/kboctopus/sns/ServiceManager" mod="1375168388005" signatureChecksum="3223512592" >
+        <def id="com.kboctopus.sns:ServiceManager" /> 
+        <dep id="flash.errors:IllegalOperationError" type="e" /> 
+        <dep id="com.kboctopus.sns.service:SinaService" type="e" /> 
+        <dep id="com.kboctopus.sns.service:TencentService" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="com.kboctopus.sns.constant:ServiceType" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="com.kboctopus.sns.service:IService" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/kboctopus/sns/service/SinaService" mod="1375167475063" signatureChecksum="1046635851" >
+        <def id="com.kboctopus.sns.service:SinaService" /> 
+        <dep id="com.kboctopus.sns.utils:PostHelper" type="e" /> 
+        <dep id="flash.net:URLRequestMethod" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.kboctopus.sns.service:BaseService" type="i" /> 
+      </script>
+      <script name="com/kboctopus/sns/utils/PostHelper" mod="1375154963696" signatureChecksum="2933292117" >
+        <def id="com.kboctopus.sns.utils:PostHelper" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_ac11f608c24827aa2b0a864fd8d0a1bae5e5948b3a43f216c68fa59033b38fc8_flash_display_Sprite" mod="1375171951132" signatureChecksum="3319560921" >
+        <def id="_ac11f608c24827aa2b0a864fd8d0a1bae5e5948b3a43f216c68fa59033b38fc8_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="92437125e476027a01ac653eea668ead39f59b0d7b7d28d27c287e9c99ddb61e"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
