@@ -15,6 +15,7 @@ QQ:407743734
     /**下面是我的新浪测试用应用信息*/
     ServiceManager.ins().initConfig(ServiceType.SINA, "", "1062362054", "618be08bb2ebba7070e378e6d57b2367",  "https://api.weibo.com/oauth2/default.html");
 
+PS:Demo中是我未审核通过的应用, 只有我本人才有测试权限。同学们请自觉换上自己的应用信息。否则无法分享
 
 ### 2.授权与分享
     ServiceManager.ins().auth(ServiceType.SINA, authComplete);
