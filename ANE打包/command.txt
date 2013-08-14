@@ -1,2 +1,2 @@
 //´ò°üANE
-java -jar adt.jar -package -tsa none -storetype pkcs12 -keystore test.p12 -storepass baijing -target ane authANE.ane extension.xml  -swc AuthANE.swc -platform Android-ARM -C Android-ARM .
+java -jar adt.jar -package -tsa none -storetype pkcs12 -keystore kboctopus.p12 -storepass baijing2046 -target ane shareANE.ane extension.xml  -swc ShareANE.swc -platform Android-ARM -C Android-ARM .

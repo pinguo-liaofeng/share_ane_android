@@ -13,7 +13,7 @@
 	<platforms>
 		<platform name="Android-ARM">
 			<applicationDeployment>
-				<nativeLibrary>authservice.jar</nativeLibrary>
+				<nativeLibrary>authandshareservice.jar</nativeLibrary>
 				<initializer>com.kboctopus.sns.SnsExtension</initializer>
 			</applicationDeployment>
 		</platform>

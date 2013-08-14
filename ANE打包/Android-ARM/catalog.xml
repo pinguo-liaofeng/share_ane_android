@@ -16,7 +16,13 @@
         <dep id="AS3" type="n" /> 
         <dep id="Object" type="i" /> 
       </script>
-      <script name="com/kboctopus/sns/constant/ServiceType" mod="1375153606600" signatureChecksum="2309443101" >
+      <script name="_738b536da74e0ab86ec132bd2819db8c0475c487afd6cf34f348958529665999_flash_display_Sprite" mod="1375326509690" signatureChecksum="3757799785" >
+        <def id="_738b536da74e0ab86ec132bd2819db8c0475c487afd6cf34f348958529665999_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/kboctopus/sns/constant/ServiceType" mod="1375320087383" signatureChecksum="706689252" >
         <def id="com.kboctopus.sns.constant:ServiceType" /> 
         <dep id="AS3" type="n" /> 
         <dep id="Object" type="i" /> 
@@ -58,18 +64,25 @@
         <dep id="AS3" type="n" /> 
         <dep id="Object" type="i" /> 
       </script>
-      <script name="com/kboctopus/sns/ServiceManager" mod="1375168388005" signatureChecksum="3223512592" >
+      <script name="com/kboctopus/sns/ServiceManager" mod="1375326509455" signatureChecksum="2110911924" >
         <def id="com.kboctopus.sns:ServiceManager" /> 
         <dep id="flash.errors:IllegalOperationError" type="e" /> 
         <dep id="com.kboctopus.sns.service:SinaService" type="e" /> 
+        <dep id="flash.filesystem:FileStream" type="e" /> 
         <dep id="com.kboctopus.sns.service:TencentService" type="e" /> 
+        <dep id="trace" type="e" /> 
         <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.filesystem:File" type="e" /> 
+        <dep id="com.kboctopus.sns.service:WeiXinService" type="e" /> 
+        <dep id="flash.filesystem:FileMode" type="e" /> 
         <dep id="flash.external:ExtensionContext" type="e" /> 
         <dep id="flash.utils:Dictionary" type="e" /> 
         <dep id="com.kboctopus.sns.constant:ServiceType" type="e" /> 
         <dep id="flash.utils:ByteArray" type="s" /> 
         <dep id="com.kboctopus.sns.service:IService" type="s" /> 
+        <dep id="flash.filesystem:FileStream" type="s" /> 
         <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.filesystem:File" type="s" /> 
         <dep id="flash.external:ExtensionContext" type="s" /> 
         <dep id="flash.utils:Dictionary" type="s" /> 
         <dep id="AS3" type="n" /> 
@@ -85,6 +98,11 @@
         <dep id="AS3" type="n" /> 
         <dep id="com.kboctopus.sns.service:BaseService" type="i" /> 
       </script>
+      <script name="com/kboctopus/sns/service/WeiXinService" mod="1375320258524" signatureChecksum="363016835" >
+        <def id="com.kboctopus.sns.service:WeiXinService" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.kboctopus.sns.service:BaseService" type="i" /> 
+      </script>
       <script name="com/kboctopus/sns/utils/PostHelper" mod="1375154963696" signatureChecksum="2933292117" >
         <def id="com.kboctopus.sns.utils:PostHelper" /> 
         <dep id="flash.utils:ByteArray" type="e" /> 
@@ -94,14 +112,8 @@
         <dep id="AS3" type="n" /> 
         <dep id="Object" type="i" /> 
       </script>
-      <script name="_ac11f608c24827aa2b0a864fd8d0a1bae5e5948b3a43f216c68fa59033b38fc8_flash_display_Sprite" mod="1375171951132" signatureChecksum="3319560921" >
-        <def id="_ac11f608c24827aa2b0a864fd8d0a1bae5e5948b3a43f216c68fa59033b38fc8_flash_display_Sprite" /> 
-        <dep id="flash.system:Security" type="e" /> 
-        <dep id="AS3" type="n" /> 
-        <dep id="flash.display:Sprite" type="i" /> 
-      </script>
       <digests>
-        <digest type="SHA-256" signed="false" value="92437125e476027a01ac653eea668ead39f59b0d7b7d28d27c287e9c99ddb61e"   />
+        <digest type="SHA-256" signed="false" value="cc8e72513ba9984bf81a7f2ecb9013279e3e29edc40f1219156219dc5e05cccc"   />
       </digests>
     </library>
   </libraries>
