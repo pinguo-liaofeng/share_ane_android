@@ -115,7 +115,7 @@ package com.kboctopus.sns
 			function continueShare(result:String):void
 			{
 				getService(currentAuthServiceType).handlerAuthBack(result);
-				this.share(currentAuthServiceType, content, img, result, error);
+				share(currentAuthServiceType, content, img, result, error);
 			}
 		}
 		
